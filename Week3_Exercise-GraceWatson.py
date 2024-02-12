@@ -1,0 +1,12 @@
+a = 'All '
+r = 'work '
+t = 'and '
+i = 'no '
+n = 'play '
+s = 'makes '
+o = 'Jack '
+m = 'a '
+e = 'dull '
+g = 'boy'
+w = '.'
+print(a+r+t+i+n+s+o+m+e+g+w)
