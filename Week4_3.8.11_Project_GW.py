@@ -17,4 +17,4 @@ for f in range(5):
     nein.forward(209)
     nein.right(144)
                                         #five lines to draw the star
-
+wn.mainloop()
