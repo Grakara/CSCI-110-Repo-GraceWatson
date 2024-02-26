@@ -20,11 +20,13 @@ def make_turtle(colr, sz):      #make turtles funct
     return t
 
 def draw_square(t, sz):     #draw square funct
+    """Makes turtle t draw a square of size sz"""
     for i in range(4):
         t.forward(sz)
         t.left(90)
 
 def nest_square(t, sz, r):     #nest square funct
+    """Makes turtle t draw a square of original size sz, adding 20 units for range r"""
     for i in range(r):
         draw_square(t, sz + 20*i)
         t.penup()
