@@ -12,4 +12,4 @@ def reverse_file_lines(file, newfile):
     newfile.close()
 
 
-reverse_file_lines("Week11-Project-13-10-1.txt", "Reversed_file")
+reverse_file_lines("Week11-Project-13-10-1.txt", "Reversed_file.txt")
